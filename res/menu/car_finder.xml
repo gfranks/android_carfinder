@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+   <!--  <item
+        android:id="@+menu/action_lock"
+        android:showAsAction="always|withText"
+        android:icon="@drawable/icon_lock"
+        android:title="@string/action_lock"/> -->
+
+</menu>

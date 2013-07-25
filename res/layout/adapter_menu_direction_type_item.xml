@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+   	android:minHeight="75dip"
+    android:paddingTop="5dip"
+    android:paddingBottom="5dip"
+    android:paddingLeft="35dip"
+    android:gravity="center_horizontal" >
+    
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    	android:padding="2dip"
+        android:background="@drawable/bg_traffic_buttons">
+    
+        <ImageButton
+	        android:id="@+direction/driving"
+	        android:layout_width="65dip"
+	        android:layout_height="60dip"
+	        android:padding="5dip"
+	        android:src="@drawable/icon_driving"
+	        android:background="@drawable/btn_traffic_normal"/>
+        <ImageButton
+	        android:id="@+direction/transit"
+	        android:layout_width="65dip"
+	        android:layout_height="60dip"
+	        android:layout_toRightOf="@+direction/driving"
+	        android:src="@drawable/icon_transit"
+	        android:background="@drawable/btn_traffic_normal"/>
+	    <ImageButton
+	        android:id="@+direction/walking"
+	        android:layout_width="65dip"
+	        android:layout_height="60dip"
+	        android:layout_toRightOf="@+direction/transit"
+	        android:src="@drawable/icon_walking"
+	        android:background="@drawable/btn_traffic_normal"/>
+	    <ImageButton
+	        android:id="@+direction/bicycling"
+	        android:layout_width="65dip"
+	        android:layout_height="60dip"
+	        android:layout_toRightOf="@+direction/walking"
+	        android:src="@drawable/icon_bicycling"
+	        android:background="@drawable/btn_traffic_normal"/>
+    
+	</RelativeLayout>
+</LinearLayout>

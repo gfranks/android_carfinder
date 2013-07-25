@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_menu"
+    android:paddingLeft="25dip" >
+    
+    <ExpandableListView 
+     	android:id="@+menu/list"
+    	android:layout_width="match_parent"
+     	android:layout_height="match_parent"
+     	android:background="@android:color/transparent"
+     	android:divider="@drawable/h_divider_long"
+     	android:childDivider="@drawable/h_divider" />
+    
+    <ImageView 
+        android:layout_width="10dip"
+        android:layout_height="match_parent"
+        android:src="@drawable/pager_shadow_right"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>

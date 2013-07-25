@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Car Finder</string>
+    <string name="action_lock">Lock Page</string>
+    <string name="action_unlock">Unlock Page</string>
+    <string name="title_menu_fragment">Menu</string>
+    <string name="title_carfinder_fragment">Car Finder</string>
+    <string name="title_map_type">Map Type</string>
+    <string name="text_show_map">Show Map</string>
+    
+    <!-- Toast Messages -->
+    <string name="message_not_tracking_car">Car location not currently being tracked</string>
+    <string name="message_markers_cleared">Map Markers Cleared</string>
+    <string name="message_location_error">Unable to find your location. Please check if GPS is enabled.</string>
+    <string name="message_location_error_new_attempt">Error finding your location. Attempting again.</string>
+    <string name="message_paging_locked">Paging Locked</string>
+    <string name="message_paging_unlocked">Paging Unlocked</string>
+    
+    <!-- String Arrays -->
+    <string-array name="settings">
+        <item>View Map</item>
+        <item>Clear Markers</item>
+        <item>Get Directions</item>
+        <item>Directions Type</item>
+        <item>Map Type</item>
+        <item>Traffic is currently:</item>
+    </string-array>
+    
+    <string-array name="directionTypes">
+        <item>Driving</item>
+        <item>Transit</item>
+        <item>Walking</item>
+        <item>Bicycling</item>
+    </string-array>
+    
+    <string-array name="mapTypes">
+        <item>Normal</item>
+        <item>Satellite</item>
+        <item>Hybrid</item>
+    </string-array>
+
+</resources>

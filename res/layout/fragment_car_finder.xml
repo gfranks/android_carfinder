@@ -1,0 +1,45 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CarFinderActivity$CarFinderFragment" >
+
+    <fragment
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        android:id="@+carfinder/mapview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        map:cameraTargetLat="37.063944"
+        map:cameraTargetLng="-99.025879"
+        map:cameraZoom="3.3" />
+
+    <LinearLayout
+        android:id="@+carfinder/mapTypeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="5dip"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+carfinder/mapTypeHeader"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/title_map_type"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+carfinder/mapTypeSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:gravity="center"
+            android:minHeight="30dip"
+            android:minWidth="70dip"
+            android:textColor="@color/whites" />
+    </LinearLayout>
+</FrameLayout>
